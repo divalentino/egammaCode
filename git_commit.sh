@@ -16,6 +16,7 @@ message="${1}"
 # git add output
 # git add pyspark
 
+rm *~
 git add *
 git commit -m "${message}"
 git push
